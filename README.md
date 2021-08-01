@@ -6,7 +6,7 @@ The puzzle : https://en.wikipedia.org/wiki/Sliding_puzzle
 The problem : To solve the slider puzzle for a 3 * 3 grid(and its natural generalizations) using A* search.   
 
 Board.java : The board data type :  
-                  * Hamming and Manhattan distances.  To measure how close a board is to the goal board, we define two notions of distance. The Hamming distance betweeen a board                     and the goal board is the number of tiles in the wrong position. The Manhattan distance between a board and the goal board is the sum of the Manhattan                           distances (sum of the vertical and horizontal distance) from the tiles to their goal positions.    
+                  * Hamming and Manhattan distances : To measure how close a board is to the goal board, we define two notions of distance. The Hamming distance betweeen a board                     and the goal board is the number of tiles in the wrong position. The Manhattan distance between a board and the goal board is the sum of the Manhattan                           distances (sum of the vertical and horizontal distance) from the tiles to their goal positions.    
                   * Comparing two boards for equality : Two boards are equal if they are have the same size and their corresponding tiles are in the same positions.  
                   * Neighboring boards.  The neighbors() method returns an iterable containing the neighbors of the board. Depending on the location of the blank square, a board                     can have 2, 3, or 4 neighbors.  
 
